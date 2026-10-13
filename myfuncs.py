@@ -28,7 +28,38 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 # ========================= USER CONFIGURATION ==========================
 KEYWORDS = ["网盘"]
-WEBSITES = ["36kr.com"]
+WEBSITES = [
+    # 中文科技与商业
+    "36kr.com",
+    "huxiu.com",
+    "latepost.com",
+    "tmtpost.com",
+    "geekpark.net",
+    "jiemian.com",
+    "caixin.com",
+    "pingwest.com",
+    "cyzone.cn",
+    "ifanr.com",
+
+    # 垂直科技与产业
+    "leiphone.com",
+    "jiqizhixin.com",
+    "qbitai.com",
+    "jazzyear.com",
+    "iyiou.com",
+    "pedaily.cn",
+    "ebrun.com",
+    "infoq.cn",
+
+    # 国际科技与商业
+    "techcrunch.com",
+    "theinformation.com",
+    "theverge.com",
+    "wired.com",
+    "restofworld.org",
+    "bloomberg.com",
+    "reuters.com"
+]
 
 ENGINE = "google"            # "google" or "bing"
 PAGES_PER_QUERY = 3           # maximum pages to inspect per keyword × website
