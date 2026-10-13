@@ -1,4 +1,4 @@
-# 批量抓取助手 desk research helper
+# 桌面研究助手-网页链接抓取 desk research helper - weburl collector
 
 ## 背景 
  战略的桌面研究（desk research）里，很大一部分是：特定网站里，关键词收集网页链接，之后批量盘查、去伪存真，得出有效情报结论。 
